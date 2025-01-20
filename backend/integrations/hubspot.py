@@ -14,8 +14,8 @@ from integrations.integration_item import IntegrationItem
 from redis_client import add_key_value_redis, get_value_redis, delete_key_redis
 
 
-CLIENT_ID = "c1addc2a-84a6-4c5b-89ee-5b72c1b8e272"
-CLIENT_SECRET = "74efccb3-1ae5-4aed-b249-a8d9c80d45aa"
+CLIENT_ID = "YOUR CLIENT ID"
+CLIENT_SECRET = "YOUR CLIENT SECRET"
 REDIRECT_URI = "http://localhost:8000/integrations/hubspot/oauth2callback"
 authorization_url = f"https://app.hubspot.com/oauth/authorize?client_id={CLIENT_ID}&redirect_uri={REDIRECT_URI}&scope=oauth%20crm.objects.companies.read"
 
